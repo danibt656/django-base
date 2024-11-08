@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container padding */
+.container {
+    padding-top: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Form elements */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input.form-control {
+    margin-bottom: 10px;
+}
+
+/* Additional styles for the home page cards */
+
+.card {
+    transition: transform 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
