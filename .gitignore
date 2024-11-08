@@ -1,7 +1,6 @@
 .env
 config.ini
 
-**/migrations/
 __pycache__/
 
 *.sqlite3
